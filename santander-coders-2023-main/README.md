@@ -1,8 +1,8 @@
-# Resumo do Curso Santander Coders 2023
+# Resumo Santander Coders 2023 - 1º módulo
 
 ![Santander Coders 2023](https://nodetalhe.com.br/wp-content/uploads/2022/07/Santander-esta-distribuindo-15-mil-bolsas-de-estudo-na-area-de-programacao.jpg)
 
-Este repositório contém um resumo do curso Santander Coders 2023, que abrange tópicos relacionados ao desenvolvimento front-end. O curso oferece uma oportunidade de aprendizado e aprimoramento de habilidades em tecnologias essenciais para a construção de aplicações web modernas de forma gratuita, desde já gostaria de agradecer a equipe ADA e Santander por essa iniciativa.
+Este repositório contém um resumo do curso Santander Coders 2023, que abrange tópicos relacionados ao desenvolvimento front-end. Desde já deixo meus agradecimentos à ADA Tecnologia e Santander por essa iniciativa.
 
 ## Índice
 
@@ -14,8 +14,5 @@ Este repositório contém um resumo do curso Santander Coders 2023, que abrange 
 
 ## Contribuição
 
-Sinta-se à vontade para contribuir com este repositório, adicionando recursos, exercícios ou projetos que considerar relevantes para o aprendizado do curso Santander Coders 2023. Abra um pull request e compartilhe seu conhecimento com a comunidade.
+Sinta-se à vontade para contribuir com este repositório, adicionando recursos, exercícios ou projetos que considerar relevantes para o aprendizado.
 
-Desejo a todos uma excelente jornada de aprendizado no curso Santander Coders 2023!
-
-*Nota: Este é apenas um resumo do estudo e matérias aos participantes e também para mim para melhor fixação.*
