@@ -1,7 +1,7 @@
 
 
 
-##01. Setup: Instalação, Entrada e Saída de dados
+## 01. Setup: Instalação, Entrada e Saída de dados
 
 O JavaScript "JS" foi criado inicialmente para ser utilizado no navegador.
 
