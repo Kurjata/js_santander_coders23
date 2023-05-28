@@ -1,8 +1,8 @@
 
-<h1>Módulo 4 - JavaScript [!stack](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)</h4>
+<h1>Módulo 4 - JavaScript 👨‍💻</h1>
 <br>
 
-## 01. Setup: Instalação, Entrada e Saída de dados
+## 01. Setup: Instalação, Entrada e Saída de dados ⚙️
 
 O JavaScript "JS" foi criado inicialmente para ser utilizado no navegador.
 
@@ -18,9 +18,12 @@ Para exibir em js algo no terminal vamos usar o comand console.log("")
 Para exibir um erro podemos usar console.error()
 Para exibir um aviso podemos usar console.warn()
 
+```javascript
 console.log("Hello, World!")
+```
+<br>
 
-## 02. Variáveis | Operadores
+## 02. Variáveis | Operadores 📁
 
 Conceito de variáveis
 
@@ -33,7 +36,7 @@ let idade = 26;
 Para imprimir a idade utilizamos:
 console.log(idade) - o resultado será 26 // criando a primeira variável
 
-## Tipos de variáveis
+## 02.01 Tipos de variáveis 📁
 
 Uma vez que criamos uma variável não podemos criar a mesma variável
 No exemplo idade = 26, se quisermos alterar é precisa colocar:
@@ -57,7 +60,9 @@ O JS aceita criar variáveis como var. É uma variável um pouco mais antiga do 
 Há variável uma variável definida como constante = const
 Essa const é uma variável que não permite mudança
 
-## 03. Operadores Aritméticos
+<br>
+
+## 03. Operadores Aritméticos 📝
 
 let numero1 = 20;
 let numero2 = 2;
@@ -74,7 +79,9 @@ Potência : ^
 Resto da divisão : %
 Exponenciação **
 
-## 04. Operadores Booleanos
+<br>
+
+## 04. Operadores Booleanos ✅ or ❌
 
 Os operadores booleanos são para comparação de verdadeiro ou falso (true or false)
 
@@ -96,9 +103,7 @@ Exemplo:
 
 const numero = 10;
 
-console.log(numero > 20)
-
-RESPOSTA: false
+console.log(numero > 20) RESPOSTA: false
 
 Diferença de == ou ===
 
@@ -125,7 +130,9 @@ idade = 40
 
 const votoFacultativo = idade <18 || idade >= 70
 
-## 05. Coerção de Tipos
+<br>
+
+## 05. Coerção de Tipos ⌛
 
 Coerção Explícita (manual)
 
@@ -154,7 +161,9 @@ O JS tem coerção implítica // faz automático
 O JS não consegue fazer operações de number com string. Se tivermos a seguinte operação
 console.log("10" + 1) // o JS vai transformar tudo em string e concatenar os dois. Contudo, se for uma subtração, multiplicação ou divisão, o JS converte para number e faz a conta.
 
-## 06. Estruturas Condicionais
+<br>
+
+## 06. Estruturas Condicionais 🛠️
 
 A estrutura condicional também é chamada de controle de fluxo. É aquela que controla o fluxo de execução do código, ela só vai ser executada se determinada função for satisfeita.
 
@@ -184,8 +193,9 @@ if (idade >= 18) {
 
 Em que pese o if ser um SE o ELSE seria SE NÃO/EM CONTRA PARTIDA
 
+<br>
 
-## 08. Estruturas de Repetição | Laços Condicionais
+## 08. Estruturas de Repetição | Laços Condicionais 🪃
 
 O fluxo de repetição fica retornando até satisfazer sua funcionalidade.
 
@@ -218,7 +228,9 @@ while (numero !== numero_sorteado) {
 
 console.log("Você acertou!!!")
 
-## 12. Funções
+<br>
+
+## 12. Funções 🔗
 
 Função de um modo simples é um trecho do código que podemos reaproveitar, reutilizar diversas vezes.
 
