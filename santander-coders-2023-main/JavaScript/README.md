@@ -73,6 +73,167 @@ Potência : ^
 Resto da divisão : %
 Exponenciação **
 
+## 04. Operadores Booleanos
+
+Os operadores booleanos são para comparação de verdadeiro ou falso (true or false)
+
+Tipos de operadores:
+
+Igualdade: == (ou ===)
+Desigualdade != (ou !==)
+Maior : >
+Maior ou igual : >=
+Menor : <
+Menor ou igual : <=
+
+CONJUNÇÕES LÓGICAS
+
+AND => &&
+OR => ||
+
+Exemplo:
+
+const numero = 10;
+
+console.log(numero > 20)
+
+RESPOSTA: false
+
+Diferença de == ou ===
+
+Se compararmos um number com uma string do mesmo valor o JS vai aceitar pq com == ele só compara o conteúdo. Exemplo: console.log(10 == "10") A RESPOSTA SERÁ TRUE
+
+Quando utilizamos === o JS vai comparar o conteúdo e o tipo, logo, se compararmos console.log(10 === "10") O RESULTADO SERÁ FALSE, pq o conteúdo é igual e o tipo não por ser um tipo primitivo number comparado com um string.
+
+A recomendação é usar sempre os === para sempre fazer a comparação completa.
+
+// Conjunções lógicas
+
+Para consultarmos 2 variáveis juntas afim de objter uma resposta que deverá ser composta por essas duas variáveis, utilizamos o AND (&&). Exemplo:
+
+let idade = 30;
+let tenhoCNH = true;
+
+const possorDirigir = idade >= 18 && tenhoCNH === true
+
+console.log("Posso dirigir?", possoDirigir) A RESPOSTA SERÁ: Posso dirigir? True
+
+tipo OR
+
+idade = 40
+
+const votoFacultativo = idade <18 || idade >= 70
+
+## 05. Coerção de Tipos
+
+Coerção Explícita (manual)
+
+const number = 10;
+
+console.log(numero typeof number) RESULTADO 10 number
+
+Para fazer a conversão desse number para string e preciso:
+
+const numero = 10
+
+const numeroFormatoString = String(numero) - NOTE QUE A LETRA INICIAL PARA ESSA CONVERSÃO ESTÁ MAIÚSCULA
+
+console.log(numeroFormatoString, typeof numeroFormatoString)
+RESPOSTA: 10 string
+
+console.log(Number("12345")) // transforma o number em string
+console.log(parseFloat("2345.87")) // converte para float
+console.log(parseInt("23443.234")) / tbm converte para float - MAS É indicado o Number
+console.log(Boolean(1)) // converte para verdade
+console.log(Boolean(o)) // converte para falso
 
 
+O JS tem coerção implítica // faz automático
+
+O JS não consegue fazer operações de number com string. Se tivermos a seguinte operação
+console.log("10" + 1) // o JS vai transformar tudo em string e concatenar os dois. Contudo, se for uma subtração, multiplicação ou divisão, o JS converte para number e faz a conta.
+
+## 06. Estruturas Condicionais
+
+A estrutura condicional também é chamada de controle de fluxo. É aquela que controla o fluxo de execução do código, ela só vai ser executada se determinada função for satisfeita.
+
+como if
+
+é necessário abrir parênteses. Exemplo:
+
+const idade = 20;
+
+if (idade >= 18) {
+    console.log("Você é maior de idade!")
+}
+
+console.log("Você é menor de idade!")
+
+// Ao executarmos isso, como o 2º console.log está fora dos conchetes, o resultado será aparecer as 2 mensagens
+
+Para obtermos a resposta que queremos com a condiciona correta, devemos estruturar o código desta forma:
+
+const idade = 20;
+
+if (idade >= 18) {
+    console.log("Você é maior de idade!")
+} else { console.log("Você é menor de idade!")
+
+}
+
+Em que pese o if ser um SE o ELSE seria SE NÃO/EM CONTRA PARTIDA
+
+
+## 08. Estruturas de Repetição | Laços Condicionais
+
+O fluxo de repetição fica retornando até satisfazer sua funcionalidade.
+
+while - repete até a condição for verdadeira até que seja verdade. Exemplo:
+
+const input - require("readline-sync)
+
+const numero_sorteado = 5;
+
+const numero = input.question("Qual número você escolhe?); 
+console.log() // ao fazermos isso e selecionarmos o número 3 nossa resposta será: 3 string pq o JS converte tudo em string. Para imprimir um número podemor converter o resultado com o Number e deixar assim: 
+
+const numero - Number(input.question("Qual numero você escolhe? ));
+
+if (numero === numero_sorteado){
+    console.log("Você acertou!")
+} else {
+    console.log("Você errou!")
+} // o problema desse código é que ao errarmos o código acaba
+
+Para utilizarmos o while a estrutura ficará assim:
+
+let numero = Number(input.question("Qual numero voce escolhe?" ));
+
+while (numero !== numero_sorteado) {
+    console.log("Você errou o número. Tente novamente...")
+
+    numero = Number(input.question("Qual numero voe escolhe? ))
+}
+
+console.log("Você acertou!!!")
+
+## 12. Funções
+
+Função de um modo simples é um trecho do código que podemos reaproveitar, reutilizar diversas vezes.
+
+function saudacao(){
+    console.log("Olá mundo!") // não acontece nada pq só definimos a função. Precisamos definir e dpeois utilizar
+
+}
+
+saudacao() //agora será impresso no nosso terminal
+
+// como enviar parâmetros para as funções?
+os parênteses carregam os parâmetros
+
+function saudacao(nome){
+    console.log(Olá, ${nome}! Seja bem-vindo ao JS)
+}
+
+saudacao("Felipe")
 
