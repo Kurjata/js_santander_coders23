@@ -9,7 +9,7 @@ Este repositório contém um resumo do curso Santander Coders 2023, que abrange 
 - [Git - Versionamento de Código](https://github.com/stolber/santander-coders-2023/tree/main/git-versionamento)
 - [HTML](https://github.com/stolber/santander-coders-2023/tree/main/html)
 - [CSS](https://github.com/stolber/santander-coders-2023/tree/main/css)
-- [JavaScript](#javascript)
+- [JavaScript](https://github.com/Kurjata/js_santander_coders23/tree/master/santander-coders-2023-main/JavaScript)
 - [React](#react)
 
 ## Contribuição
