@@ -1,5 +1,6 @@
 
-
+<h1>Módulo 4 - JavaScript [!stack](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)</h4>
+<br>
 
 ## 01. Setup: Instalação, Entrada e Saída de dados
 
